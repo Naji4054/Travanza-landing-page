@@ -1,6 +1,6 @@
 import Banner from "../components/Banner"
-import Destination from "../components/Popular-destination"
-import Choose from "../components/Choose-us"
+import Destination from "../components/Popular-destination/Destination"
+import Choose from "../components/Choose-us/choose"
 const Home = () => {
 
     return (
@@ -9,6 +9,7 @@ const Home = () => {
             <Banner/>
             <Destination/>
             <Choose/>
+            
         </main>
         <footer></footer>
         </>
