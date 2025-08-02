@@ -6,12 +6,12 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="footer-box1">
                     <div className="footer-des">
-                        <p>Prepare yourselft to be a part of exploration of</p>
-                        <h4>The Beauty of Indonesia</h4>
+                        <p className="p-tag">Prepare yourselft to be a part of exploration of</p>
+                        <h4 className="h4">The Beauty of Indonesia</h4>
                     </div>
                     <div className="footer-btn">
                         <button className="sign-up">Sign Up</button>
-                        <button className="Sign-in">Sign In</button>
+                        <button className="sign-in">Sign In</button>
                     </div>
                 </div>
 

@@ -1,11 +1,27 @@
 
+.footer-container {
+    background: #48a4c4;
+    color:white;
+
+}
+
+.footer-logo {
+    font-size:13px;
+    margin-bottom: 12px;
+}
+
+.icons {
+    margin-bottom:12px;
+}
+
 .footer-box1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid black;
+    border: 0.3px solid white;
     padding: 75px 45px;
     border-radius: 20px;
+    margin-bottom: 31px;
 }
 
 .footer-des {
@@ -18,11 +34,15 @@
     display: flex;
     flex-direction: column;
     flex-basis: 30%;
+    gap: 20px
 }
 
 .footer-box2 {
     display: flex;
     justify-content: space-between;
+    border-bottom: 0.3px solid white;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .footer-box-des {
@@ -34,7 +54,7 @@
 .footer-app {
     display: flex;
     flex-direction: column;
-    flex-basis: 30%;
+    flex-basis: 25%;
     justify-content: space-between;
     
 }
@@ -56,7 +76,10 @@
 }
 
 .store-buttons {
-    max-width:143px
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
 }
 
 .contents {
@@ -70,4 +93,36 @@
 }
 .btn-p2 {
     font-size: 16px;
+}
+
+.p-tag {
+    font-size :20px;
+}
+.h4 {
+    font-size :36px;
+}
+
+.sign-up {
+    max-width: 250px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color:white;
+    background: transparent;
+    border:0.5px solid white;
+    border-radius:10px
+}
+
+.sign-in {
+    max-width: 250px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #48a4c4;
+    background:white;
+    border:0.5px solid white;
+    border-radius:10px
+}
+
+.left {
+    display: flex;
+    gap: 20px;
 }

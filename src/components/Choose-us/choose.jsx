@@ -1,5 +1,7 @@
 import { info } from "../../data/ChooseData";
 import Travel from "./ChooseCards";
+import "./choose.css"
+import "../layout/footer.css"
 
 const Choose =() => {
     return (
@@ -9,8 +11,8 @@ const Choose =() => {
                 </div>
                 <div className="right-choose-us">
                     <div className="choose-title">
-                        <h3 id="h3">Why Choose Us</h3>
-                        <p id="p">Enjoy different experiences in every place you visit and discover new and affordable adventures of course.</p>
+                        <h3 className="h4">Why Choose Us</h3>
+                        <p className="p-tag">Enjoy different experiences in every place you visit and discover new and affordable adventures of course.</p>
                     </div>
                   <div className="travel-cards">
                     {
