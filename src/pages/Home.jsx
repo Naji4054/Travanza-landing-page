@@ -11,9 +11,7 @@ const Home = () => {
             <Destination/>
             <Choose/>
             <Vacation/>
-            
         </main>
-        <footer></footer>
         </>
     )
 }

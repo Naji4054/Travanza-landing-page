@@ -2,18 +2,20 @@
 
 const DestinationCard = (props) => {
 
+    const {image:pic, title:caption} = props.data
+
 
     return(
         <div className="places">
         <div className="popular-wrapper">
-            <img src={props.image} alt="destination1" />
+            <img src={pic} alt="destination1" />
         </div>
         <div className="dest-info">
             <div className="location">
                 <span>
                     <img src="/images/main/Location.png" alt="location" />
                 </span>
-                <p>{props.title}</p>
+                <p>{caption}</p>
             </div>
             <div className="package">
                 <h4>Flores Road Trip 3D2N</h4>

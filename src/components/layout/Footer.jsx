@@ -1,3 +1,5 @@
+import "./footer.css";
+
 const Footer = () => {
     return (
         <section id="footer">
@@ -32,8 +34,18 @@ const Footer = () => {
                             <p> Get the App</p>
                         </div>
                         <div className="store-buttons">
-                            <button><span><img src="/images/main/google-play-png-logo-3789 1.png" alt="playstore" /></span><span className="btn-p1"><p>GET IT ON</p></span><span className="btn-p2"><p>Google Play</p></span></button>
-                            <button><span><img src="/images/main/appstore.png" alt="appstore" /></span><span className="btn-p1"><p>Download on the</p></span><span className="btn-p2"><p>App</p></span></button>
+                            <button>
+                                <span><img src="/images/main/playstore.png" alt="playstore" /></span>
+                                <div className="contents">
+                                    <span className="btn-p1"><p>Get it on</p></span><span className="btn-p2"><p>Google Play</p></span>
+                                </div>
+                            </button>
+                            <button>
+                                <span><img src="/images/main/appstore.png" alt="appstore" /></span>
+                                <div className="contents">
+                                    <span className="btn-p1"><p>Download on the</p></span><span className="btn-p2"><p>App Store</p></span>
+                                </div>
+                            </button>
                          </div>
                     </div>
                 </div>

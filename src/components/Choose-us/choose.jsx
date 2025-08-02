@@ -14,7 +14,7 @@ const Choose =() => {
                     </div>
                   <div className="travel-cards">
                     {
-                        info.map((information)=><Travel image={information.infoImage} title={information.infoTitle}/>)
+                        info.map((information)=><Travel  key ={information.id} data={information}/>)
                     }
                    
                   </div>

@@ -21,6 +21,8 @@ body  {
   margin:0 auto;
 }
 
+/* ## navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -57,3 +59,9 @@ body  {
 .choose-title {
  margin-bottom: 3.5em;
 }
+
+
+.map img {
+  width:100%
+}
+

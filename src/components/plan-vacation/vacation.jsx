@@ -6,7 +6,7 @@ const Vacation = () =>{
                     <p>For many people organizing a trip is a headache.Register to be able to jointly determine vaction destionations and dates</p>
             </div>
             <div className="map">
-                <img src="/images/main/map.png" alt="map" />
+                <img src="/images/main/travel-map.jpg" alt="map" />
             </div>
         </section>
     )

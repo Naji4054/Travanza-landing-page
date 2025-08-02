@@ -12,7 +12,7 @@ const Destination =()=>{
 
                 <div className="popular-cards">
                 {
-                    data.map((item)=> <DestinationCard image={item.image} title={item.title}/>)
+                    data.map((item)=> <DestinationCard key={item.id} data={item}/>)
                 }
                 </div>
 
