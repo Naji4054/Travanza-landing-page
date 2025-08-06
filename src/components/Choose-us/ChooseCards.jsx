@@ -12,8 +12,8 @@ const Travel = (props) => {
                 <img src={image} alt="flight" />
                 </span>
                 <div>
-                    <h4>{title}</h4>
-                    <p>Vitae donec pellentesque a aliquam et ultricies auctor. </p>
+                    <h4 className="flight-h">{title}</h4>
+                    <p className="flight-p">Vitae donec pellentesque a aliquam et ultricies auctor. </p>
                 </div>
             </div>
                    

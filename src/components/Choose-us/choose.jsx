@@ -5,7 +5,7 @@ import "../layout/footer.css"
 
 const Choose =() => {
     return (
-        <section id="choose-us">
+        <section id="choose-us" className="container">
                 <div className="left-choose-us">
                         <img src="/images/main/choose-us.png" alt="demo" />
                 </div>
@@ -20,7 +20,7 @@ const Choose =() => {
                     }
                    
                   </div>
-                  <div>
+                  <div className="another-product">
                     <p>Another Product <span><img src="/images/main/chevron-right.png" alt="right arrow" /></span></p>
                 </div>
                   

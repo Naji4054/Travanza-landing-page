@@ -2,8 +2,8 @@ import "./footer.css";
 
 const Footer = () => {
     return (
-        <section id="footer">
-            <div className="footer-container">
+        <section id="footer" >
+            <div className="footer-container container">
                 <div className="footer-box1">
                     <div className="footer-des">
                         <p className="p-tag">Prepare yourselft to be a part of exploration of</p>
