@@ -1,4 +1,4 @@
-import Banner from "../components/Banner"
+import Banner from "../components/Banner-1/Banner"
 import Destination from "../components/Popular-destination/Destination"
 import Choose from "../components/Choose-us/choose"
 import Vacation from "../components/plan-vacation/vacation"
