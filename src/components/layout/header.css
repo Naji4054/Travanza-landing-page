@@ -1,0 +1,29 @@
+nav{
+    background: linear-gradient(to bottom, #e1f4ff 46%, #f6faff 100%); 
+}
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 24px;
+   
+}
+   .nav-logo {
+    font-size: 20px;
+    color: var(--primary-color);
+}
+  
+  .nav-pages > ul{
+    display: flex;
+    gap:12rem;
+}
+
+.button {
+    padding: 6px 28px;
+    font-size: 13px;
+    border-radius: 9px;
+    color: white;
+    background-color: #FA8443;
+    border: #FA8443;
+  }

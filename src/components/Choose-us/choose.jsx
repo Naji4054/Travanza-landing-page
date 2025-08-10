@@ -1,7 +1,6 @@
 import { info } from "../../data/ChooseData";
 import Travel from "./ChooseCards";
 import "./choose.css"
-import "../layout/footer.css"
 
 const Choose =() => {
     return (

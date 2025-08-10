@@ -1,5 +1,4 @@
 import "./vacation.css"
-import "../layout/footer.css"
 
 const Vacation = () =>{
     return (

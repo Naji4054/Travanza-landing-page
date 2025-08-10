@@ -1,4 +1,5 @@
-import "./layout/footer.css"
+import "./banner.css"
+
 
 const Banner = () => {
 

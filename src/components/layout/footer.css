@@ -69,24 +69,6 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.store-buttons button {
-    display: flex;
-    background: black;
-    color: white;
-    width:100%;
-    gap:12px;
-    border: 1px solid white;
-    border-radius: 6px;
-    padding:4px 7px;
-}
-
-.store-buttons {
-    max-width: 350px;
-    display: flex;
-    justify-content: space-between;
-    gap: 26px;
-}
-
 .contents {
     display: flex;
     flex-direction: column;
@@ -100,16 +82,10 @@
     font-size: 16px;
 }
 
-.p-tag {
-    font-size :20px;
-    color: var(--secondary-color);
-}
+
  .footer-des p {
     font-size :20px;
     color: white
-}
-.h4 {
-    font-size :36px;
 }
 
 .sign-up {
