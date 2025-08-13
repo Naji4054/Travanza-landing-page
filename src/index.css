@@ -19,12 +19,6 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(180deg, #f6faff 0%, #ffffff 100%);
-  background-image: url(../public/images/main/top-view-small-plane-with-copy-space.jpg);
-  background-size: 100% 720px;
-  background-repeat: no-repeat;
-  background-position: top;
-
-
 }
 .container {
   max-width: 1335px;
