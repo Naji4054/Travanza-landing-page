@@ -4,7 +4,6 @@ const DestinationCard = (props) => {
 
     const data = props.data
 
-
     return(
         <div className="places">
         <div className="popular-wrapper">
