@@ -1,6 +1,5 @@
 import "./vacation.css"
 
-
 const Vacation = () =>{
     return (
         <section id="plan-vacation container" className="container">
